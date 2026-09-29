@@ -1,5 +1,48 @@
 <div align=center>
 <img src="https://github.com/AudioKit/Cookbook/raw/main/Cookbook/Cookbook/Assets.xcassets/audiokit-icon.imageset/audiokit-icon.png" width="20%"/>
+  NEW Fetures 
+🚀 New Features Added
+
+Continuous Listening Mode (Loop Dictation)
+
+Toggle switch to keep microphone capture alive across speech breaks and silence pauses.
+Automatically re-arms recognition after utterance completion or silence timeout without needing manual re-tapping.
+
+Real-Time 7-Bar Audio Waveform Equalizer
+
+An animated multi-bar voice visualizer that bounces dynamically in response to incoming microphone audio pitch/volume levels (onSpeechVolumeChanged).
+
+Session Duration Timer
+
+Live recording badge displaying elapsed session time in tabular minutes and seconds (00:00).
+
+Speech Metrics Dashboard
+
+Instant computation of Word Count, Character Count, and active Language Tag for recognized text.
+
+Saved Notes & Transcript History Manager
+
+Save Note: Stores recognized speech into a timestamped, word-counted history list.
+Native Share: Opens the device's native share sheet (Share.share) to export transcripts directly to Messages, WhatsApp, Email, or Slack.
+Delete / Clear All: Manage saved notes individually or wipe history.
+
+Multi-Hypothesis Candidate Selector
+
+Displays alternate recognition interpretations from the native engine.
+Tap any alternate candidate (#2, #3, etc.) to promote it to the primary transcript.
+
+Expanded Languages & Custom Locale Selector
+
+Expanded presets: English (US & UK), Spanish, French, German, Italian, Portuguese, Japanese, Mandarin Chinese, Hindi, Arabic, and Korean.
+Custom Locale Picker: Input field allowing testing of any custom BCP-47 locale tag (e.g. nl-NL, sv-SE, tr-TR).
+
+Platform & Engine Diagnostics
+
+Detects and lists installed speech recognition services on Android via Voice.getSpeechRecognitionServices(), with platform version inspection.
+
+Dark Mode / Light Mode Theme Switcher
+
+Instant toggle between light mode and high-contrast dark mode.
   
 # AudioKit
 
